@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.7.4+commit.3f05b770"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newgreet",
+						"type": "string"
+					}
+				],
+				"name": "setGreet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyContract.sol": "Greeter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyContract.sol": {
+			"keccak256": "0x43ab44d7a3e51b80239eabca2786aaf85d3d504a6fa8d227abe6d08f67daa025",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://59b8ca65e7c4e5ad2b18f7b25dc5448f629a6b7025c727e0d45ed4751372eff9",
+				"dweb:/ipfs/QmWAjFQUL5YFkyW1PNY3JcW3266UL6Mrs9mF7MuQCWvBMs"
+			]
+		}
+	},
+	"version": 1
+}
